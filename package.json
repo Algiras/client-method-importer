@@ -1,0 +1,39 @@
+{
+  "name": "client-method-importer",
+  "version": "0.0.1",
+  "description": "Easy way to connect other API's",
+  "repository": {
+    "type": "git",
+    "url": "https://github.dominionenterprises.com/DMM-NODE/client-method-importer.git"
+  },
+  "main": "./lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/lab/bin/lab -c -L"
+  },
+  "keywords": [
+    "hapi",
+    "js",
+    "back-end",
+    "plugin"
+  ],
+  "author": "AK",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.5.2",
+    "hapi": "8.x.x",
+    "joi": "^8.0.4",
+    "lodash": "^4.6.1",
+    "request": "^2.69.0",
+    "hoek": "^4.0.0"
+  },
+  "devDependencies": {
+    "rootpath": "^0.1.2",
+    "sinon": "^1.17.3",
+    "code": "^2.1.0",
+    "lab": "^10.1.0",
+    "nock": "^7.2.2"
+  }
+}
